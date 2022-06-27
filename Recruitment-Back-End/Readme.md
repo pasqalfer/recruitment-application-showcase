@@ -33,16 +33,6 @@ For more detailed information and example requests, read the api documentation f
 
 ## Configuration
 
-#####  Cloud hosted datasource (Heroku)
-Warning : setting spring.jpa.hibernate.ddl-auto in the properties file to either
-create or create-drop will erase all data from the database when the server starts!
-
-Edit the following properties in the application.properties file.
-```
-spring.datasource.url=jdbc:postgresql://ec2-34-254-120-2.eu-west-1.compute.amazonaws.com:5432/d39lv1aqnm45se
-spring.datasource.username=aizswtxkbfxerc
-spring.datasource.password=4cce106fca4a28908ed25b4e4d2c005fbe305f7cbdf83c9660a99c449270dbd4
-```
 
 ##### Local datasource (for development)
 Start the postgres server locally and create the database.
