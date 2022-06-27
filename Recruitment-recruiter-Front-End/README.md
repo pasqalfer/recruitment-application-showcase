@@ -26,7 +26,7 @@ When developing and testing the application, there is a variable that needs to b
 
 #### For local front end server
 ```
-const host = "http://localhost:8000"
+const host = "http://localhost:8005"
 ```
 #### For cloud front end server
 ```
