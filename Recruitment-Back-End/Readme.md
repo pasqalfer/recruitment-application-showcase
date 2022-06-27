@@ -1,10 +1,6 @@
 # Recruitment Application
 This is a project for the course IV1201, Design of Global Applications, at KTH, Sweden.
-The project is back-end server that is part of a fullstack recruitment platform, where applicants can apply for the job and recruiters can read and approve the applications.
-
-This server is responsible for providing service endpoints that are consumed by front-end applications.
-- The applicant front end can be found [here](https://gitlab.com/iv1201group15/recruitment-application-applicant-front)!
-- The recruiter front end can be found [here](https://gitlab.com/iv1201group15/recruitment-application-recruiter-front)!
+This part of the project is back-end server that is part of a fullstack recruitment platform, where applicants can apply for the job and recruiters can read and approve the applications.
 
 ## API
 ###### prefix : /api/users/{role}/*
