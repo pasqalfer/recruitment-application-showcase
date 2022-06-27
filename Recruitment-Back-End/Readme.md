@@ -53,36 +53,8 @@ Run these commands to get the server up and running:
 ./mvnw spring-boot:run
 ```
 
-## Development
-Start the recruiter front end
-```
-cd recruitment-application-recruiter-front
-./mvnw clean install
-```
-
-## Test and Deploy
-This project uses the built-in continuous integration in GitLab. The [.gitlab-ci.yml](.gitlab-ci.yml) file will run for each push to any branch, but only deploy the main branch.
-
-#### Future testing
-Unit tests is not yet implemented in this project. If future testers decides to create such tests and use, for example, [Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/) the result of each test will be displayed in the build job log for that particular pipeline.
-
-#### Static analysing
-The project uses [Maven PMD Plugin](https://maven.apache.org/plugins/maven-pmd-plugin/) for static analysing which is added in the [pom.xml](pom.xml). In the [excludeFromPmdCheck.properties](excludeFromPmdCheck.properties) can one add rules to be excluded in the analysis.
-
-#### Deployment
-The environment variables below are added in the GitLab repository to be able to test and deploy with CI/CD pipelines. The [.gitlab-ci.yml](.gitlab-ci.yml) script will first install ruby to be able to later use dpl to deploy the main branch to heroku. 
-
-Read more about the .gitlab-ci.yml file [here](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html) and about deploying with dpl [here](https://docs.gitlab.com/ee/ci/examples/deployment/)
-```
-$SPRING_DATASOURCE_DB: The database name
-$SPRING_DATASOURCE_USER: The database username
-$SPRING_DATASOURCE_PASSWORD: The database password
-$HEROKU_APP: The heroku app link for deployment
-$HEROKU_API_KEY: The personal heroku API key for the owner of the heroku app
-```
-
 ## Authors and acknowledgment
  - [Vera Lindström](https://github.com/veralindstrom)
  - [Estelle Hue](https://github.com/estellehue)
- - [Samuel Ferrara](https://github.com/ferrara-dev)
+ - [Samuel Ferrara](https://github.com/pasqalfer)
 
