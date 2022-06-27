@@ -7,4 +7,5 @@ In each project directory of this repository, follow configuration & startup ins
  ```
 ./mvnw clean install
 ./mvnw spring-boot:run
-```.
+```
+Make sure that the servers are not running on the same port !
