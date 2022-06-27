@@ -52,10 +52,10 @@ Run these commands to get the server up and running:
 ./mvnw clean install
 ./mvnw spring-boot:run
 ```
+
 ## Development
-clone the repository to get started with development 
+Start the recruiter front end
 ```
-git clone git@gitlab.com:iv1201group15/recruitment-application-recruiter-front.git
 cd recruitment-application-recruiter-front
 ./mvnw clean install
 ```
