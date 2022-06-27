@@ -1,4 +1,0 @@
-
-const SidebarState = (user) => {
-
-}
