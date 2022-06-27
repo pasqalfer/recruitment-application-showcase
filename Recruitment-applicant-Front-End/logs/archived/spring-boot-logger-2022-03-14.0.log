@@ -1,0 +1,311 @@
+2022-03-14 20:11:48,629 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 2789 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 20:11:48,641 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 20:11:49,880 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 20:11:50,373 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.465 seconds (JVM running for 4.364)
+2022-03-14 20:13:15,865 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:15,992 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated in "home" - redirected to log in
+2022-03-14 20:13:16,289 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:16,307 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:17,874 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:18,029 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /css/main.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:18,031 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /css/button.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:18,035 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /css/input.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:18,048 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /css/main.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:18,057 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /css/button.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:18,058 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /css/input.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:24,887 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:13:24,965 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:14:21,905 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:14:22,600 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=hej%40hejhej&pnr=0000]
+2022-03-14 20:16:50,490 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 5263 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 20:16:50,496 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 20:16:54,996 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 20:16:55,660 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 7.115 seconds (JVM running for 10.153)
+2022-03-14 20:17:21,559 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 5525 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 20:17:21,564 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 20:17:23,159 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 20:17:25,739 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 5.485 seconds (JVM running for 7.307)
+2022-03-14 20:17:26,738 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:17:26,865 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated in "home" - redirected to log in
+2022-03-14 20:17:26,896 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:17:26,911 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:17:27,370 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:17:31,665 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:17:31,735 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:17:36,758 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:17:37,186 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 20:17:37,190 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=veraalindss%40gmail.com&pnr=0006159404]
+2022-03-14 20:25:07,345 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:25:07,388 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:25:10,345 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:25:11,188 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-8] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Username not found"]}"
+2022-03-14 20:25:11,194 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=rec&password=rec]
+2022-03-14 20:25:27,037 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:25:27,048 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:25:32,530 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:25:32,563 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-10] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 20:25:32,572 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40gmail.com&pnr=4]
+2022-03-14 20:28:03,465 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 10705 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 20:28:03,474 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 20:28:05,237 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 20:28:05,716 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.947 seconds (JVM running for 4.366)
+2022-03-14 20:28:13,512 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:28:13,752 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 20:28:14,166 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40gmail.com&pnr=4]
+2022-03-14 20:35:40,425 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:35:40,509 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:35:41,937 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:35:41,947 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:35:46,477 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:35:46,659 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-6] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 20:35:46,662 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40gmail.com&pnr=0]
+2022-03-14 20:40:14,123 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [GET /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:40:14,168 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : GET /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:40:17,683 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:40:17,898 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-10] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 20:40:17,904 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40gmail.com&pnr=5]
+2022-03-14 20:48:06,351 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:48:06,427 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:48:17,649 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:48:17,662 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:48:29,407 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:48:29,917 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-5] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 20:48:29,925 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40gmail.com&pnr=4]
+2022-03-14 20:52:09,192 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 22871 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 20:52:09,201 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 20:52:11,150 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 20:52:11,962 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 4.229 seconds (JVM running for 6.12)
+2022-03-14 20:52:26,007 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:52:26,421 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:52:29,846 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:52:30,082 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-2] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 20:52:30,101 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40gmail.com&pnr=5]
+2022-03-14 20:59:31,179 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:59:31,225 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-5] Client not authenticated in "home" - redirected to log in
+2022-03-14 20:59:31,237 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:59:31,244 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 20:59:31,260 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:10:20,669 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:10:20,716 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:10:22,644 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:10:22,659 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:10:26,321 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:10:26,511 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-10] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 21:10:26,516 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40gmail.com&pnr=4]
+2022-03-14 21:29:57,605 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:29:57,634 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:01,017 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:01,616 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed"}"
+2022-03-14 21:30:01,624 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40gmail.com&pnr=5]
+2022-03-14 21:30:20,941 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:20,949 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:25,589 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:26,208 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera]
+2022-03-14 21:30:26,216 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:26,931 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:27,037 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] Before request [GET /css/fragment.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:27,072 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] REQUEST DATA : GET /css/fragment.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:40,680 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [GET /logout?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:40,691 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : GET /logout?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:41,969 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:41,986 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:48,544 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:48,925 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-1] Ex: 500 : "{"message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement"}"
+2022-03-14 21:30:48,932 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=veraalindss%40gmail.com&pnr=00]
+2022-03-14 21:30:48,939 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /error?message=Something+went+wrong+with+the+server, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:30:48,983 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /error?message=Something+went+wrong+with+the+server, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:11,106 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:11,136 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-5] Client not authenticated in "home" - redirected to log in
+2022-03-14 21:37:11,146 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:11,171 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:11,195 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:13,194 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:13,890 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-7] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Username not found"]}"
+2022-03-14 21:37:13,893 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera]
+2022-03-14 21:37:16,009 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] Before request [GET /register?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:16,072 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] REQUEST DATA : GET /register?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:16,417 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [GET /js/passwordValidation.js, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:16,423 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : GET /js/passwordValidation.js, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:31,300 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [POST /register, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:31,962 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : POST /register, client=0:0:0:0:0:0:0:1, payload=name=vera&surname=vera&pnr=0&username=vera&email=vera%40vera&password=vera]
+2022-03-14 21:37:31,968 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:31,969 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated in "home" - redirected to log in
+2022-03-14 21:37:31,970 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:31,981 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:31,983 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:34,463 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:34,796 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera]
+2022-03-14 21:37:34,802 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:34,881 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:36,250 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /logout?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:36,257 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /logout?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:37,919 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:37,926 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:44,588 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 21:37:44,841 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40vera&pnr=0]
+2022-03-14 22:24:31,426 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 68144 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 22:24:31,431 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 22:24:35,509 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 22:24:36,059 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 6.008 seconds (JVM running for 8.525)
+2022-03-14 22:24:40,422 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:24:40,454 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated in "home" - redirected to log in
+2022-03-14 22:24:40,466 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:24:40,479 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:24:41,160 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:24:43,338 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:24:43,405 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:24:51,615 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:24:52,365 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed"}"
+2022-03-14 22:24:52,368 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=hej%40gmail.com&pnr=5]
+2022-03-14 22:25:41,834 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:25:41,881 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-6] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed"}"
+2022-03-14 22:25:41,887 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=veraalindss%40gmail.com&pnr=5]
+2022-03-14 22:25:50,150 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:25:50,309 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40vera&pnr=5]
+2022-03-14 22:26:01,664 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] Before request [GET /updatePassword?token=a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:26:01,895 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-8] Message: Invalid URL Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 22:26:01,903 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] REQUEST DATA : GET /updatePassword?token=a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:26:01,907 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [GET /updatePassword?token=a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:26:01,920 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-9] Message: Invalid URL Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 22:26:01,924 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : GET /updatePassword?token=a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:26:38,814 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [GET /updatePassword/a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:26:38,864 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-10] Ex: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+2022-03-14 22:26:38,876 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : GET /updatePassword/a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:26:38,910 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:26:38,935 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:28:40,975 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 70216 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 22:28:40,980 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 22:28:42,440 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 22:28:42,862 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.536 seconds (JVM running for 4.197)
+2022-03-14 22:29:00,399 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /updatePassword?token=a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:29:00,502 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Message: Invalid URL Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : [no body]
+2022-03-14 22:29:00,910 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /updatePassword?token=a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:31:52,025 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 71757 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 22:31:52,031 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 22:31:53,449 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 22:31:53,845 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.718 seconds (JVM running for 4.17)
+2022-03-14 22:32:08,669 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /updatePassword?token=a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:32:09,446 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /updatePassword?token=a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:32:36,533 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [POST /updatePassword/a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:32:36,544 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-2] Ex: org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'password' for method parameter type String is not present
+2022-03-14 22:32:36,553 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : POST /updatePassword/a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:32:36,568 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:32:36,602 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:34:22,553 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [POST /updatePassword/a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:34:22,580 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-6] Ex: org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'password' for method parameter type String is not present
+2022-03-14 22:34:22,588 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : POST /updatePassword/a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:34:22,613 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:34:22,630 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:36:13,173 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 73857 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 22:36:13,178 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 22:36:14,947 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 22:36:15,700 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 4.622 seconds (JVM running for 8.581)
+2022-03-14 22:37:23,043 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [POST /updatePassword/a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:37:23,107 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-1] Ex: org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'password' for method parameter type String is not present
+2022-03-14 22:37:23,124 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : POST /updatePassword/a14daea9-8c9b-4ca6-9215-8801512f2f10, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:37:23,144 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:37:23,583 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:42:03,718 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 76805 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 22:42:03,722 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 22:42:05,048 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 22:42:05,420 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.406 seconds (JVM running for 4.569)
+2022-03-14 22:43:12,710 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:12,760 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated in "home" - redirected to log in
+2022-03-14 22:43:12,779 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:12,794 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:13,282 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:13,456 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /css/button.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:13,462 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /css/main.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:13,477 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /css/main.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:13,487 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /css/button.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:16,100 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:16,172 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:23,013 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:23,644 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40vera&pnr=0]
+2022-03-14 22:43:35,911 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [GET /updatePassword?token=00d00140-00ca-4e1f-b1c9-6c6b0ab96771, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:36,070 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : GET /updatePassword?token=00d00140-00ca-4e1f-b1c9-6c6b0ab96771, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:36,075 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] Before request [GET /updatePassword?token=00d00140-00ca-4e1f-b1c9-6c6b0ab96771, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:36,340 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] REQUEST DATA : GET /updatePassword?token=00d00140-00ca-4e1f-b1c9-6c6b0ab96771, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:48,485 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:48,850 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera]
+2022-03-14 22:43:48,855 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:49,024 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:50,618 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /logout?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:50,626 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /logout?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:57,548 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [POST /updatePassword/00d00140-00ca-4e1f-b1c9-6c6b0ab96771, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:57,602 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-2] Ex: org.springframework.web.client.RestClientException: Error while extracting response for type [interface java.util.Map] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.LinkedHashMap<java.lang.Object,java.lang.Object>` from Boolean value (token `JsonToken.VALUE_FALSE`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.LinkedHashMap<java.lang.Object,java.lang.Object>` from Boolean value (token `JsonToken.VALUE_FALSE`)
+ at [Source: (PushbackInputStream); line: 1, column: 1]
+2022-03-14 22:43:57,604 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : POST /updatePassword/00d00140-00ca-4e1f-b1c9-6c6b0ab96771, client=0:0:0:0:0:0:0:1, payload=password=vera123]
+2022-03-14 22:43:57,617 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:43:57,637 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /error?message=Something+went+wrong, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:45:41,820 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:45:41,828 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-6] Client not authenticated in "home" - redirected to log in
+2022-03-14 22:45:41,832 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:45:41,842 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:45:41,847 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:45:43,685 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:45:43,858 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera]
+2022-03-14 22:45:43,869 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:45:43,981 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:45:46,360 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [GET /logout?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:45:46,382 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : GET /logout?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:03,139 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:03,185 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /newPassword?, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:11,395 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:11,950 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-3] Message: Invalid e-mail/social secruity number Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed"}"
+2022-03-14 22:52:11,953 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=veraalindss%40gmail.com&pnr=5]
+2022-03-14 22:52:18,842 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [POST /newPassword, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:18,970 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : POST /newPassword, client=0:0:0:0:0:0:0:1, payload=email=vera%40vera&pnr=5]
+2022-03-14 22:52:25,083 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /updatePassword?token=b86cc5c7-206a-4f14-be8f-6543822ad2de, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:25,182 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /updatePassword?token=b86cc5c7-206a-4f14-be8f-6543822ad2de, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:25,393 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [GET /css/main.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:25,397 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : GET /css/main.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:25,402 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] Before request [GET /css/button.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:25,409 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] REQUEST DATA : GET /css/button.css, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:33,304 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] Before request [POST /updatePassword/b86cc5c7-206a-4f14-be8f-6543822ad2de, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:33,344 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-9] Ex: 500 : "{}"
+2022-03-14 22:52:33,346 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-9] REQUEST DATA : POST /updatePassword/b86cc5c7-206a-4f14-be8f-6543822ad2de, client=0:0:0:0:0:0:0:1, payload=password=vera123]
+2022-03-14 22:52:33,356 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [GET /error?message=Something+went+wrong+with+the+server, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:52:33,360 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : GET /error?message=Something+went+wrong+with+the+server, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:55:14,585 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:55:14,617 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] Client not authenticated in "home" - redirected to log in
+2022-03-14 22:55:14,624 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:55:14,649 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:55:14,660 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:55:19,604 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [POST /updatePassword/b86cc5c7-206a-4f14-be8f-6543822ad2de, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:55:20,051 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-5] Ex: 500 : "{}"
+2022-03-14 22:55:20,054 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : POST /updatePassword/b86cc5c7-206a-4f14-be8f-6543822ad2de, client=0:0:0:0:0:0:0:1, payload=password=vera123]
+2022-03-14 22:55:20,083 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /error?message=Something+went+wrong+with+the+server, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:55:20,095 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /error?message=Something+went+wrong+with+the+server, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:56:40,354 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 11.0.10 on Admins-MBP with PID 83956 (/Users/admin/Desktop/A&D/recruitment-application-applicant-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-applicant-front)
+2022-03-14 22:56:40,357 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-14 22:56:41,566 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-14 22:56:42,010 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.283 seconds (JVM running for 3.972)
+2022-03-14 22:57:39,562 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [POST /updatePassword/b86cc5c7-206a-4f14-be8f-6543822ad2de, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:57:40,921 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : POST /updatePassword/b86cc5c7-206a-4f14-be8f-6543822ad2de, client=0:0:0:0:0:0:0:1, payload=password=vera123]
+2022-03-14 22:57:57,399 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:57:57,489 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-2] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Wrong password"]}"
+2022-03-14 22:57:57,499 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera]
+2022-03-14 22:58:02,038 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:58:02,089 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-3] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Wrong password"]}"
+2022-03-14 22:58:02,095 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera123]
+2022-03-14 22:58:52,138 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:58:52,162 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-5] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Wrong password"]}"
+2022-03-14 22:58:52,166 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=b86cc5c7-206a-4f14-be8f-6543822ad2de]
+2022-03-14 22:58:55,113 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:58:55,149 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-6] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Wrong password"]}"
+2022-03-14 22:58:55,153 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera]
+2022-03-14 22:59:00,898 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 22:59:00,954 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-7] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Wrong password"]}"
+2022-03-14 22:59:00,961 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera]
+2022-03-14 23:01:32,396 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 23:01:32,448 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-10] Client not authenticated in "home" - redirected to log in
+2022-03-14 23:01:32,500 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-14 23:01:32,512 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 23:01:32,524 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 23:01:35,407 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 23:01:35,507 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-2] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Wrong password"]}"
+2022-03-14 23:01:35,510 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera123]
+2022-03-14 23:01:39,794 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-14 23:01:39,811 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-3] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Wrong password"]}"
+2022-03-14 23:01:39,815 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=vera&password=vera123]

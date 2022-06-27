@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <style>
+        body {
+            font-size: .875rem;
+        }
+
+        .feather {
+            width: 16px;
+            height: 16px;
+            vertical-align: text-bottom;
+        }
+
+        /*
+         * Sidebar
+         */
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 100; /* Behind the navbar */
+            padding: 0;
+            box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+        }
+
+        .sidebar-sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 48px; /* Height of navbar */
+            height: calc(100vh - 48px);
+            padding-top: .5rem;
+            overflow-x: hidden;
+            overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        }
+
+        .sidebar .nav-link {
+            font-weight: 500;
+            color: #333;
+        }
+
+        .sidebar .nav-link .feather {
+            margin-right: 4px;
+            color: #999;
+        }
+
+        .sidebar .nav-link.active {
+            color: #007bff;
+        }
+
+        .sidebar .nav-link:hover .feather,
+        .sidebar .nav-link.active .feather {
+            color: inherit;
+        }
+
+        .sidebar-heading {
+            font-size: .75rem;
+            text-transform: uppercase;
+        }
+
+        /*
+         * Navbar
+         */
+
+        .navbar-brand {
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+            font-size: 1rem;
+            background-color: rgba(0, 0, 0, .25);
+            box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+        }
+
+        .navbar .form-control {
+            padding: .75rem 1rem;
+            border-width: 0;
+            border-radius: 0;
+        }
+        #contextMenu {
+            position: absolute;
+            display: none;
+        }
+        .form-control-dark {
+            color: #fff;
+            background-color: rgba(255, 255, 255, .1);
+            border-color: rgba(255, 255, 255, .1);
+        }
+
+        .form-control-dark:focus {
+            border-color: transparent;
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+        }
+
+        /*
+         * Utilities
+         */
+
+        .border-top { border-top: 1px solid #e5e5e5; }
+        .border-bottom { border-bottom: 1px solid #e5e5e5; }
+    </style>
+    <link rel="icon" href="/favicon.ico"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="apple-touch-icon" href="/logo192.png"/>
+    <link rel="manifest" href="/manifest.json"/>
+    <title>React App</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#tabs" ).tabs();
+        } );
+        $( function() {
+            //Set up dialog box for creating playlist
+            $("#create-playlist-dialog").dialog({
+                autoOpen  : false,
+                modal     : true,
+                title     : "Create Playlist",
+                buttons   : {
+                    'OK' : function() {
+                        let playlistName = $('#playlist-name-input').val();
+                        if(!playlistName || playlistName == "" || playlistName == 'undefined'){
+                            alert('You have to name your playlist');
+                        }
+                        apiUtil.addPlaylist(playlistName,true)
+                        $(this).dialog('close');
+                    },
+                    'Close' : function() {
+                        alert('The Close button was clicked');
+                        $(this).dialog('close');
+                    }
+                }
+            });
+
+            //Open the dialog box when the button is clicked.
+            $('#create-playlist-btn').click(function() {
+                $("#create-playlist-dialog").dialog("open");
+            });        } );
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.js" integrity="sha512-tL4PIUsPy+Rks1go4kQG8M8/ItpRMvKnbBjQm4d2DQnFwgcBYRRN00QdyQnWSCwNMsoY/MfJY8nHp2CzlNdtZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
+
+    <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#">Sign out</a>
+        </li>
+    </ul>
+</nav>
+<main id="tabs" role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        <h1 class="h2" > [[${profile.getUsername()}]]'s profile</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+            <div class="btn-group mr-2">
+                <button
+                        onclick="showTab1()"
+                        class="btn btn-sm btn-outline-secondary">
+                    Playlists
+                </button>
+                <button
+                        onclick="showTab2()"
+                        class="btn btn-sm btn-outline-secondary">
+                    Uploads                        </button>
+            </div>
+            <button
+                    onclick="showTab3()"
+                    class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                Recently Played Tracks
+            </button>
+        </div>
+    </div>
+    <div id="tabs-1">
+        <h2>User playlists</h2>
+
+        <div id="playlists" class="table-responsive">
+            <table class="table table-striped table-sm">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Songs#</th>
+                </tr>
+                </thead>
+                <tbody id="userPlaylists">
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <div id="tabs-2">
+        <h2>User uploads</h2>
+        <div id="uploads" class="table-responsive">
+            <table class="table table-striped table-sm">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>Album</th>
+                    <th>Add to playlist</th>
+
+                </tr>
+                </thead>
+                <tbody id="userUploadsList">
+
+                </tbody>
+            </table>
+        </div>
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+    </div>
+
+    <div id="tabs-3">
+        <h2>Recently played</h2>
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+    </div>
+
+</main>
+<div id="contextMenu" class="dropdown clearfix">
+
+</div>
+<script type="text/javascript" th:src="@{/js/index.js}"></script>
+<script type="text/javascript" th:src="@{/js/howler.js}"></script>
+
+<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+<script>
+    feather.replace()
+</script>
+
+<div id="create-playlist-dialog">
+    Give your new playlist a name !
+    <input type="text" id="playlist-name-input" />
+</div>
+
+<script th:inline="javascript">
+
+    const userToken = [[${_csrf}]]
+    const apiUtil = new APIUtil(userToken)
+
+    const profile = [[${profile}]]
+    const currentUser = [[${currentUser}]]
+
+    function showTab1(){
+        $('#tabs-1').show()
+        $('#tabs-2').hide()
+        $('#tabs-3').hide()
+    }
+
+    function showTab2(){
+        $('#tabs-1').hide()
+        $('#tabs-2').show()
+        $('#tabs-3').hide()
+    }
+
+    function showTab3(){
+        $('#tabs-1').hide()
+        $('#tabs-2').hide()
+        $('#tabs-3').show()
+    }
+
+    showTab1()
+
+
+    function dropdownOptions(playlists){
+
+    }
+
+    function populateProfileUploads(songs){
+        let songList = $('#userUploadsList')
+        songList.html('')
+        songs.forEach(song => {
+            $('<tr>')
+                .append($("<td>").append('<i data-feather="play"></i>'))
+                .append($("<td>").text(song.title))
+                .append($("<td>").text(song.artist))
+                .append($("<td>").text(song.album))
+                .append($("<td>").append($("<button>").attr("id", song.id).text("+").addClass("btn-add-to-playlist")))
+                .appendTo(songList)
+        })
+        feather.replace()
+    }
+
+    function appendAddToPlaylistDropdown(playlists){
+        $(function() {
+            let $contextMenu = $("#contextMenu");
+            $contextMenu.html('')
+            let $ul = $('<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display:block;position:static;margin-bottom:5px;">')
+
+            playlists.map(p => {
+                $ul.append($('<li>').text(p.name).attr("id", p.id))
+            })
+
+            $contextMenu.append($ul)
+
+            $(".btn-add-to-playlist").click(function(e) {
+                $contextMenu.css({
+                    display: "block",
+                    left: e.pageX,
+                    top: e.pageY
+                });
+
+                $contextMenu.attr("currentSongId", e.target.id)
+                return false;
+            });
+
+            $('html').click(function() {
+                $contextMenu.hide();
+            });
+
+            $("#contextMenu li").click(function(e){
+                let  f = $(this);
+                let playlistID  = f.attr("id");
+                let songID = $contextMenu.attr("currentSongId");
+                apiUtil.addSongToList(playlistID,songID)
+            });
+
+        });
+    }
+
+    function populateProfilePlaylists(playlists){
+        let songList = $('#userPlaylists')
+        songList.html('')
+        playlists.forEach(playlist => {
+            $('<tr>')
+                .append($("<td>").append($("<a>").attr("href", "/playlist/"+playlist.id).append('<i data-feather="play"></i>')))
+                .append($("<td>").text(playlist.name))
+                .append($("<td>").text(playlist.playlistSongs.length))
+                .appendTo(songList)
+        })
+        feather.replace()
+    }
+
+    if(profile.username == currentUser){
+        connect('/users/topic/profile',{username:profile.username}, (m) => {
+            let name = m.name;
+            let uploads = m.userUploads;
+            let playlists = m.playlists;
+            populateProfileUploads(uploads)
+            populateProfilePlaylists(playlists)
+            appendAddToPlaylistDropdown(playlists)
+            populateSidebarPlaylists(playlists)
+        })
+
+    } else {
+        connect('/users/topic/profile',{username:profile.username}, (m) => {
+            let name = m.name;
+            let uploads = m.userUploads;
+            let playlists = m.playlists;
+            populateProfileUploads(uploads)
+            populateProfilePlaylists(playlists)
+            appendAddToPlaylistDropdown(playlists)
+        })
+
+        connect('/users/topic/profile',{username:currentUser}, (m) => {
+            let playlists = m.playlists;
+            populateSidebarPlaylists(playlists)
+        })
+    }
+
+
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+
+/* GENERAL */
+body {
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: #6666ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6666ff), to(#cbccc8)) fixed;
+}
+h1 {
+    margin-bottom: 5%;
+    color: #f3f3f2;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    letter-spacing:1px;
+}
+
+.message{
+    color: #f3f3f2;
+    text-shadow: 0 0 5px rgba(0,0,0,0.3);
+    letter-spacing: 1px;
+}
+
+/*ERROR PAGE*/
+
+.error_page--container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link-home {
+    padding-top: 3rem;
+    margin-bottom: 10%;
+}
+
+.error_page-message{
+    margin-top: 30%;
+}
+
+/*APPLICATION*/
+.message-error {
+    color: #c10012;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.message-success {
+    color: #46ef00;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+
+/* LOGIN */
+.login-title {
+    margin-top: 5%;
+}
+
+
+/* REGISTER */
+.register-form{
+    margin-top: -2rem;
+}
+#account-info{
+    display: none;
+}
+.password-message {
+    margin-bottom: 5px;
+}
+
+/* APPLY */
+.link-home {
+    padding-top: 3rem;
+    margin-bottom: 10%;
+}
+
+.error_page-message{
+    margin-top: 30%;
+}

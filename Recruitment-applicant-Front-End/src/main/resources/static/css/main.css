@@ -1,0 +1,142 @@
+
+/* GENERAL */
+body {
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: #6666ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6666ff), to(#cbccc8)) fixed;
+}
+h1 {
+    margin-bottom: 5%;
+    color: #f3f3f2;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    letter-spacing:1px;
+}
+
+.message{
+    color: #f3f3f2;
+    text-shadow: 0 0 5px rgba(0,0,0,0.3);
+    letter-spacing: 1px;
+}
+
+/* ERROR PAGE */
+.error_page--container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link-home {
+    padding-top: 3rem;
+    margin-bottom: 10%;
+}
+
+.error_page-message{
+    margin-top: 30%;
+}
+
+/* LOGIN */
+.login-title {
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+.apply-title {
+    margin-top: 7%;
+}
+
+.new-pass-message {
+    padding-bottom: 2rem;
+    width: 90%;
+    padding-left: 5%;
+}
+
+
+/* REGISTER */
+.register-form{
+    margin-top: -2rem;
+}
+#account-info{
+    display: none;
+}
+.password-message {
+    margin-bottom: 5px;
+}
+
+/* APPLICATION */
+.link-home {
+    padding-top: 3rem;
+}
+.application-form {
+    border-radius: 20px;
+}
+.personal-info {
+    display: inline-flex;
+}
+.date-rows {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+.name-rows {
+}
+.application-subtitle {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.application-info {
+    margin-top: 2%;
+}
+.status-container{
+    margin-bottom: 1%;
+}
+.title-status{
+    display: inline-flex;
+}
+.status-title{
+    padding-top: 2%;
+    padding-left: 8%;
+}
+.status-icon{
+    float: right;
+    text-align: right;
+    padding-right: 1%;
+    padding-bottom: 2%;
+}
+
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width: 800px) {
+    .register-form{
+        margin-top: 2rem;
+    }
+    .date-rows {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .register-form{
+        margin-top: 4rem;
+    }
+    .personal-info {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .date-rows {
+        width: 20rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .name-rows {
+        width: 20rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .status-icon{
+        padding-right: -5%;
+    }
+}

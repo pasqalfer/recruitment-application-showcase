@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSX in the browser</title>
+    <link th:href="@{/css/index.css}" rel="stylesheet" />
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.js" integrity="sha512-tL4PIUsPy+Rks1go4kQG8M8/ItpRMvKnbBjQm4d2DQnFwgcBYRRN00QdyQnWSCwNMsoY/MfJY8nHp2CzlNdtZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+</head>
+<body>
+
+<div id="root" class="App">
+
+    <div id="application-sidebar">
+    </div>
+
+    <div id="application-content" class="featured">
+
+    </div>
+
+    <div id="application-player">
+
+    </div>
+
+</div>
+
+<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+
+<script th:src="@{/js/components/sidebar/NavItem.js}" type="text/jsx" ></script>
+<script th:src="@{/js/components/sidebar/Playlists.js}" type="text/jsx" ></script>
+<script th:src="@{/js/components/Navlist.js}" type="text/jsx" ></script>
+<script th:src="@{/js/pages/Sidebar.js}" type="text/jsx" ></script>
+<script th:src="@{/js/pages/ProfilePage.js}" type="text/jsx" ></script>
+
+<script th:src="@{/js/utils/APIUtil.js}"  type="text/javascript" ></script>
+<script type="text/javascript" th:src="@{/js/index.js}"></script>
+
+<script th:inline="javascript">
+    const userToken = [[${_csrf}]]
+    const user = [[${currentUser}]]
+    const apiUtil = new APIUtil(userToken)
+
+    function connect({destination, args, onChange}){
+        let socket = new SockJS("http://localhost:8080/subscribe")
+        let stompClient = (Stomp.over(socket))
+
+        stompClient.connect(args, function() {
+            console.log('Web Socket is connected');
+            let subscription = stompClient.subscribe(destination, function(message) {
+                onChange(JSON.parse(message.body))
+            });
+        });
+        return () => stompClient.disconnect()
+    }
+
+    const homeProfile = new UserProfile(user)
+    let userProfile = homeProfile
+</script>
+
+<script type="text/babel">
+
+    const renderProfile = ({username, playlists, tab, setTab}) => {
+        ReactDOM.render(<ProfilePage username={username} playlists={playlists} tab={tab} setTab={(n) => setTab(n)}/>, document.getElementById('application-content'))
+    }
+
+    const renderSidebar = ({username, playlists}) => {
+        ReactDOM.render(<Sidebar username={username} playlists={playlists}></Sidebar>, document.getElementById('application-sidebar'))
+    }
+
+    function hashChanged() {
+        const [hash, query] = location.href.split('#')[1].split('?')
+        const params = Object.fromEntries(new URLSearchParams(query || ''))
+
+        if(hash === "/profile"){
+            if(!query || params.username === homeProfile.username){
+                renderProfile(homeProfile)
+            }
+        }
+    }
+</script>
+</body>
+</html>

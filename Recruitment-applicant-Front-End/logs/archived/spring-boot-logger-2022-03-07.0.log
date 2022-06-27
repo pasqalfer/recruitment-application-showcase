@@ -1,0 +1,54 @@
+2022-03-07 16:55:50,476 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 5192 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 16:55:50,483 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 16:55:50,483 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 16:55:52,975 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 3.034 seconds (JVM running for 4.452)
+2022-03-07 17:01:30,583 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 16340 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 17:01:30,588 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 17:01:30,588 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 17:01:32,902 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 3.083 seconds (JVM running for 5.088)
+2022-03-07 17:02:47,309 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 856 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 17:02:47,315 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 17:02:47,315 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 17:02:49,044 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.421 seconds (JVM running for 3.826)
+2022-03-07 17:10:57,271 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 30116 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 17:10:57,277 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 17:10:57,277 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 17:10:59,428 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.728 seconds (JVM running for 3.793)
+2022-03-07 17:22:00,909 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 25324 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 17:22:00,913 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 17:22:00,914 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 17:22:02,544 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.293 seconds (JVM running for 3.347)
+2022-03-07 17:22:26,603 TRACE com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] A TRACE Message
+2022-03-07 17:22:26,604 DEBUG com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] A DEBUG Message
+2022-03-07 17:22:26,605 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] An INFO Message
+2022-03-07 17:22:26,605 WARN com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] A WARN Message
+2022-03-07 17:22:26,606 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] An ERROR Message
+2022-03-07 17:34:27,142 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 25288 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 17:34:27,147 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 17:34:27,148 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 17:34:29,109 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.566 seconds (JVM running for 3.843)
+2022-03-07 17:34:36,268 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-07 17:34:36,285 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-2] Client not authenticated redirected to log in
+2022-03-07 17:34:39,652 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-5] Applicant not found in database when log in
+2022-03-07 17:36:27,103 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 14532 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 17:36:27,110 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 17:36:27,111 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 17:36:29,125 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.66 seconds (JVM running for 3.623)
+2022-03-07 17:36:34,651 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-07 17:36:34,681 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-2] Client not authenticated redirected to log in
+2022-03-07 17:37:43,799 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 3900 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 17:37:43,804 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 17:37:43,804 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 17:37:45,918 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.679 seconds (JVM running for 4.732)
+2022-03-07 17:37:49,549 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-07 17:37:59,708 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-3] Error message: Invalid username/password - Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Wrong password"]}"
+2022-03-07 17:45:11,706 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 23828 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 17:45:11,713 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 17:45:11,715 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 17:45:13,421 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.489 seconds (JVM running for 3.981)
+2022-03-07 17:45:19,594 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-07 17:45:25,521 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-4] Error message: Invalid username/password - Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Wrong password"]}"
+2022-03-07 18:23:59,606 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 27568 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-07 18:23:59,606 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-07 18:23:59,606 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-07 18:24:00,581 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.221 seconds (JVM running for 1.906)

@@ -1,0 +1,45 @@
+before_script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+
+stages:
+    - test
+    - build
+    - production
+
+test:
+    stage: test
+    script:
+        - echo "Test pipeline"
+build:
+  stage: build
+  services:
+      - postgres:12.2-alpine
+  variables:
+    POSTGRES_DB: $SPRING_DATASOURCE_DB
+    POSTGRES_USER: $SPRING_DATASOURCE_USER
+    POSTGRES_PASSWORD: $SPRING_DATASOURCE_PASSWORD
+    POSTGRES_HOST_AUTH_METHOD: trust
+  image: 
+      name: maven:3.8.4-jdk-11
+
+  script:
+      # Check if file is executable
+      - chmod +x mvnw
+      
+      - ./mvnw verify
+      # Show results
+      - ls target/reports/
+      - cat target/reports/pmd/pmd.xml
+      - cat target/reports/pmd/cpd.xml
+      - cat target/reports/spotbugs/spotbugs.xml
+      #- cat target/surefire-reports/*txt
+
+production:
+    stage: production
+    image: ruby:latest
+    script:
+        - dpl --provider=heroku --app=$HEROKU_APP --api-key=$HEROKU_API_KEY
+    only:
+        - main

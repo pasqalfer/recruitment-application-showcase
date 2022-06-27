@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"/>
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/button.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/input.css}" />
+</head>
+<body>
+<h1 class="login-title">Welcome to the best workplace!</h1>
+<div class="new-pass-message">
+    <p th:text="${newPasswordMessage}"></p>
+</div>
+
+<form th:action="@{/login}" method="post">
+    <label for="username">Username</label><br/>
+    <input type="text" id="username" name="username" autofocus="autofocus" placeholder="jane" required="required"/> <br/>
+    <label for="password">Password</label><br/>
+    <input type="password" id="password" name="password" required="required"/> <br/>
+
+    <div class="login-message message" th:text="${message}"></div>
+
+    <input class="btn-login btn btn-primary btn-large" type="submit" value="Log in" />
+</form>
+
+
+<form th:action="@{/newPassword}" method="get">
+    <input class="btn-password" type="submit" value="Get a password" />
+</form>
+
+<form th:action="@{/register}" method="get">
+    <div class="div-label">Don't have an account?</div>
+    <input class="btn-login btn btn-primary btn-large" type="submit" value="Sign up" />
+</form>
+</body>
+</html>

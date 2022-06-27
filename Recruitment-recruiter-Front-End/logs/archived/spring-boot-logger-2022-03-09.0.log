@@ -1,0 +1,308 @@
+2022-03-08 09:49:35,530 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 17 on DESKTOP-ESTEL with PID 33440 (C:\Users\estel\Documents\GitLab\recruitment-application-recruiter-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-recruiter-front)
+2022-03-08 09:49:35,535 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 09:49:35,536 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 09:49:37,042 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 2.255 seconds (JVM running for 3.392)
+2022-03-08 09:49:42,265 INFO com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-08 10:41:35,891 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 17 on DESKTOP-ESTEL with PID 34032 (C:\Users\estel\Documents\GitLab\recruitment-application-recruiter-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-recruiter-front)
+2022-03-08 10:41:35,897 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 10:41:35,897 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 10:41:37,600 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 2.798 seconds (JVM running for 5.147)
+2022-03-08 13:15:58,596 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 18168 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 13:15:58,598 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 13:15:58,598 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 13:16:00,135 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 1.969 seconds (JVM running for 2.948)
+2022-03-08 13:46:44,249 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 10200 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 13:46:44,251 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 13:46:44,252 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 13:46:45,532 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 1.765 seconds (JVM running for 2.657)
+2022-03-08 13:49:01,791 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 3000 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 13:49:01,793 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 13:49:01,794 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 13:49:03,298 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 1.941 seconds (JVM running for 2.888)
+2022-03-08 13:50:45,359 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 8676 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 13:50:45,362 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 13:50:45,363 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 13:50:46,659 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 1.799 seconds (JVM running for 2.719)
+2022-03-08 13:50:51,492 INFO com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-08 13:56:22,581 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 6428 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 13:56:22,584 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 13:56:22,584 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 13:56:24,123 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 2.094 seconds (JVM running for 3.244)
+2022-03-08 14:00:46,493 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 9088 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 14:00:46,496 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 14:00:46,496 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 14:00:47,710 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 1.568 seconds (JVM running for 2.393)
+2022-03-08 14:01:02,377 INFO com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-2] Client not authenticated redirected to log in
+2022-03-08 14:04:31,753 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 15060 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 14:04:31,756 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 14:04:31,756 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 14:04:33,175 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 1.787 seconds (JVM running for 2.609)
+2022-03-08 14:05:19,383 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 1732 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 14:05:19,386 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 14:05:19,386 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 14:05:20,642 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 1.676 seconds (JVM running for 2.738)
+2022-03-08 14:05:34,227 INFO com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-08 14:10:22,959 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 10952 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 14:10:22,961 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 14:10:22,962 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 14:10:24,565 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 2.136 seconds (JVM running for 3.03)
+2022-03-08 14:10:52,620 INFO com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-2] Client not authenticated redirected to log in
+2022-03-08 14:12:57,588 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 11.0.14.1 on DESKTOP-CINH01O with PID 11652 (C:\vera app\recruitment-application-recruiter-front\target\classes started by axell in C:\vera app\recruitment-application-recruiter-front)
+2022-03-08 14:12:57,591 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 14:12:57,591 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 14:12:58,899 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 1.73 seconds (JVM running for 2.631)
+2022-03-08 16:05:36,798 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 17.0.1 on Admins-MBP with PID 39783 (/Users/admin/Desktop/A&D/recruitment-application-recruiter-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-recruiter-front)
+2022-03-08 16:05:36,802 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:05:36,803 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:05:41,369 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 6.599 seconds (JVM running for 8.72)
+2022-03-08 16:05:45,795 INFO com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-08 16:05:55,008 ERROR org.thymeleaf.TemplateEngine [http-nio-8000-exec-10] [THYMELEAF][http-nio-8000-exec-10] Exception processing template "public/applicationPage": Exception evaluating SpringEL expression: "applicant.name" (template: "fragments/application" - line 39, col 50)
+org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "applicant.name" (template: "fragments/application" - line 39, col 50)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.AdditionExpression.executeAddition(AdditionExpression.java:89)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:62)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'name' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 64 common frames omitted
+2022-03-08 16:05:55,011 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8000-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "applicant.name" (template: "fragments/application" - line 39, col 50)] with root cause
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'name' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.AdditionExpression.executeAddition(AdditionExpression.java:89)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:62)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-03-08 16:07:25,749 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 17.0.1 on Admins-MBP with PID 40722 (/Users/admin/Desktop/A&D/recruitment-application-recruiter-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-recruiter-front)
+2022-03-08 16:07:25,756 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:07:25,759 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:07:28,270 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 3.261 seconds (JVM running for 4.894)
+2022-03-08 16:07:34,365 INFO com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-08 16:12:51,146 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 17.0.1 on Admins-MBP with PID 43397 (/Users/admin/Desktop/A&D/recruitment-application-recruiter-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-recruiter-front)
+2022-03-08 16:12:51,160 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:12:51,161 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:12:53,938 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 3.499 seconds (JVM running for 5.254)
+2022-03-08 16:13:00,664 INFO com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-08 16:13:06,747 ERROR org.thymeleaf.TemplateEngine [http-nio-8000-exec-10] [THYMELEAF][http-nio-8000-exec-10] Exception processing template "public/applicationPage": Exception evaluating SpringEL expression: "applicant.name" (template: "fragments/application" - line 39, col 50)
+org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "applicant.name" (template: "fragments/application" - line 39, col 50)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.AdditionExpression.executeAddition(AdditionExpression.java:89)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:62)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2022-03-09 19:05:37,152 INFO org.springframework.boot.StartupInfoLogger [main] Starting RecruiterwebappApplication using Java 17.0.1 on Admins-MBP with PID 76526 (/Users/admin/Desktop/A&D/recruitment-application-recruiter-front/target/classes started by Vera in /Users/admin/Desktop/A&D/recruitment-application-recruiter-front)
+2022-03-09 19:05:37,162 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-09 19:05:38,333 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-09 19:05:38,941 INFO org.springframework.boot.StartupInfoLogger [main] Started RecruiterwebappApplication in 2.545 seconds (JVM running for 5.11)
+2022-03-09 19:06:01,991 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:02,038 INFO com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated in "home" - redirected to log in
+2022-03-09 19:06:02,085 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:02,137 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:02,856 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:02,946 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /css/button.css, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:02,947 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /css/main.css, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:02,950 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /css/input.css, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:02,966 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /css/button.css, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:02,968 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /css/input.css, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:02,968 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /css/main.css, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:04,868 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:05,368 ERROR com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-6] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Username not found"]}"
+2022-03-09 19:06:05,372 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=rec&password=rec]
+2022-03-09 19:06:13,029 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [POST /login, client=0:0:0:0:0:0:0:1]
+2022-03-09 19:06:13,133 ERROR com.iv1201.recruiterwebapp.recruiterwebapp.controller.IndexController [http-nio-8000-exec-7] Message: Invalid username/password Ex: org.springframework.web.client.HttpClientErrorException$Forbidden: 403 : "{"message":"Authentication failed","errors":["Username not found"]}"
+2022-03-09 19:06:13,135 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : POST /login, client=0:0:0:0:0:0:0:1, payload=username=r&password=r]

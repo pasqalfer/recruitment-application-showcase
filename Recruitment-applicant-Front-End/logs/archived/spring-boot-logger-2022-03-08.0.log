@@ -1,0 +1,224 @@
+2022-03-08 16:08:02,686 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 34608 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:08:02,696 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:08:02,696 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:08:04,692 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.772 seconds (JVM running for 4.827)
+2022-03-08 16:09:12,962 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-08 16:12:20,514 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 28704 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:12:20,516 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:12:20,516 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:12:21,534 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.385 seconds (JVM running for 2.558)
+2022-03-08 16:12:35,854 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-3] Client not authenticated redirected to log in
+2022-03-08 16:25:30,397 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 15256 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:25:30,397 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:25:30,397 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:25:32,008 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.215 seconds (JVM running for 3.822)
+2022-03-08 16:25:41,441 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-08 16:27:52,666 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 14212 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:27:52,666 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:27:52,666 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:27:53,643 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.382 seconds (JVM running for 2.318)
+2022-03-08 16:28:06,947 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-2] Client not authenticated redirected to log in
+2022-03-08 16:28:26,735 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 33600 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:28:26,746 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:28:26,746 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:28:27,722 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.399 seconds (JVM running for 2.234)
+2022-03-08 16:28:35,666 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-2] Client not authenticated redirected to log in
+2022-03-08 16:29:15,726 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 29016 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:29:15,735 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:29:15,735 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:29:17,114 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.868 seconds (JVM running for 3.132)
+2022-03-08 16:30:04,411 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 33172 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:30:04,415 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:30:04,417 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:30:05,867 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.026 seconds (JVM running for 3.19)
+2022-03-08 16:30:33,578 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 35688 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:30:33,583 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:30:33,583 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:30:35,795 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.719 seconds (JVM running for 4.602)
+2022-03-08 16:30:57,216 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 30900 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:30:57,223 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:30:57,224 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:30:58,834 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.452 seconds (JVM running for 3.845)
+2022-03-08 16:31:13,456 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 28928 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:31:13,464 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:31:13,464 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:31:16,328 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 3.431 seconds (JVM running for 4.395)
+2022-03-08 16:31:35,264 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 13072 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:31:35,267 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:31:35,267 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:31:37,298 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.816 seconds (JVM running for 4.294)
+2022-03-08 16:32:18,064 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 28656 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:32:18,074 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:32:18,074 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:32:20,442 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.883 seconds (JVM running for 3.819)
+2022-03-08 16:32:36,495 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 31348 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 16:32:36,495 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 16:32:36,495 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 16:32:37,830 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.79 seconds (JVM running for 2.763)
+2022-03-08 16:33:30,338 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-3] Client not authenticated redirected to log in
+2022-03-08 16:34:02,048 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-6] Message: I/O error on POST request for "http://localhost:8080/api/users/applicant/authenticate": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect - Ex: org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8080/api/users/applicant/authenticate": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-08 16:34:05,859 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-8] Client not authenticated redirected to log in
+2022-03-08 17:28:37,683 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:29:07,164 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:29:13,814 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /]
+2022-03-08 17:29:13,849 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /]
+2022-03-08 17:29:13,867 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login]
+2022-03-08 17:29:14,111 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login]
+2022-03-08 17:29:16,604 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [POST /login]
+2022-03-08 17:29:17,760 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : POST /login, payload=username=vera&password=vera]
+2022-03-08 17:29:17,768 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /]
+2022-03-08 17:29:18,562 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /]
+2022-03-08 17:29:53,845 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:29:53,845 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:30:08,269 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /]
+2022-03-08 17:30:08,269 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /]
+2022-03-08 17:30:08,293 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /]
+2022-03-08 17:30:08,293 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /]
+2022-03-08 17:30:08,310 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login]
+2022-03-08 17:30:08,310 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login]
+2022-03-08 17:30:08,498 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login]
+2022-03-08 17:30:08,498 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login]
+2022-03-08 17:30:10,119 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [POST /login]
+2022-03-08 17:30:10,119 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [POST /login]
+2022-03-08 17:30:10,534 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : POST /login, payload=username=vera&password=vera]
+2022-03-08 17:30:10,534 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : POST /login, payload=username=vera&password=vera]
+2022-03-08 17:30:10,542 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /]
+2022-03-08 17:30:10,542 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /]
+2022-03-08 17:30:11,075 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /]
+2022-03-08 17:30:11,075 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /]
+2022-03-08 17:32:48,613 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:33:08,992 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /]
+2022-03-08 17:33:09,024 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /]
+2022-03-08 17:33:09,032 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login]
+2022-03-08 17:33:09,218 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login]
+2022-03-08 17:33:23,669 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:33:30,767 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /login]
+2022-03-08 17:33:31,060 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /login]
+2022-03-08 17:33:33,966 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login]
+2022-03-08 17:33:33,974 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login]
+2022-03-08 17:33:35,548 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [POST /login]
+2022-03-08 17:33:36,138 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : POST /login, payload=username=vera&password=vera]
+2022-03-08 17:33:36,155 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /]
+2022-03-08 17:33:36,732 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /]
+2022-03-08 17:33:49,646 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /logout?]
+2022-03-08 17:33:49,654 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /logout?]
+2022-03-08 17:33:53,993 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [POST /login]
+2022-03-08 17:33:54,471 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : POST /login, payload=username=vera&password=bfrd]
+2022-03-08 17:36:18,523 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 33240 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 17:36:18,523 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 17:36:18,523 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 17:36:19,370 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:36:19,717 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.503 seconds (JVM running for 2.246)
+2022-03-08 17:36:27,431 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /login]
+2022-03-08 17:36:27,871 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /login]
+2022-03-08 17:36:34,786 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [POST /login]
+2022-03-08 17:36:35,189 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : POST /login, payload=username=vera&password=btda]
+2022-03-08 17:40:32,966 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 34772 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 17:40:32,966 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-03-08 17:40:32,966 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 17:40:33,809 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:40:34,170 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.657 seconds (JVM running for 2.464)
+2022-03-08 17:40:40,470 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /login]
+2022-03-08 17:40:40,928 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /login]
+2022-03-08 17:40:45,875 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [POST /login]
+2022-03-08 17:40:46,461 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : POST /login, payload=username=vera&password=tesjc]
+2022-03-08 17:41:07,593 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [POST /login]
+2022-03-08 17:41:07,593 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-3] Ex: org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8080/api/users/applicant/authenticate": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-08 17:41:07,601 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : POST /login, payload=username=vera&password=vera]
+2022-03-08 17:41:07,609 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /error?message=Connection+to+server+is+lost]
+2022-03-08 17:41:07,637 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /error?message=Connection+to+server+is+lost]
+2022-03-08 17:41:57,190 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:42:05,677 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /]
+2022-03-08 17:42:05,710 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /]
+2022-03-08 17:42:05,722 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login]
+2022-03-08 17:42:06,050 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login]
+2022-03-08 17:42:10,404 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [POST /login]
+2022-03-08 17:42:10,510 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-3] Ex: org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8080/api/users/applicant/authenticate": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-08 17:42:10,517 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : POST /login, payload=username=vera&password=nklo]
+2022-03-08 17:42:10,525 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /error?message=Connection+to+server+is+lost]
+2022-03-08 17:42:10,558 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /error?message=Connection+to+server+is+lost]
+2022-03-08 17:42:32,763 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:42:43,498 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /]
+2022-03-08 17:42:43,554 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /]
+2022-03-08 17:42:43,562 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login]
+2022-03-08 17:42:43,964 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login]
+2022-03-08 17:42:49,709 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [POST /login]
+2022-03-08 17:42:50,772 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : POST /login, payload=username=vera&password=nklo]
+2022-03-08 17:42:57,946 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [GET /register?]
+2022-03-08 17:42:57,971 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : GET /register?]
+2022-03-08 17:42:58,017 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /js/passwordValidation.js]
+2022-03-08 17:42:58,025 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /js/passwordValidation.js]
+2022-03-08 17:43:19,241 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [POST /register]
+2022-03-08 17:43:19,588 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-6] Ex: org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"errors":[{"fieldName":"username","fieldValue":"vera","errors":["username already exists"]}]}"
+2022-03-08 17:43:19,588 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-6] Ex: org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"errors":[{"fieldName":"username","fieldValue":"vera","errors":["username already exists"]}]}"
+2022-03-08 17:43:19,588 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : POST /register, payload=name=vera&surname=vera&pnr=123456789&username=vera&email=v%40bji&password=vera]
+2022-03-08 17:43:19,596 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [GET /login?error=true]
+2022-03-08 17:43:19,596 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : GET /login?error=true]
+2022-03-08 17:44:32,214 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] Before request [GET /register?]
+2022-03-08 17:44:32,223 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-10] REQUEST DATA : GET /register?]
+2022-03-08 17:44:37,663 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /apply?]
+2022-03-08 17:44:37,665 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /apply?]
+2022-03-08 17:44:37,669 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login]
+2022-03-08 17:44:37,677 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login]
+2022-03-08 17:45:07,790 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 24064 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 17:45:07,794 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 17:45:08,673 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:45:09,034 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.704 seconds (JVM running for 2.61)
+2022-03-08 17:45:24,139 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /login]
+2022-03-08 17:45:24,382 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /login]
+2022-03-08 17:45:26,799 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /]
+2022-03-08 17:45:26,804 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-2] Client not authenticated redirected to log in
+2022-03-08 17:45:26,812 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /]
+2022-03-08 17:45:26,826 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /login]
+2022-03-08 17:45:26,834 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /login]
+2022-03-08 17:45:32,413 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [POST /login]
+2022-03-08 17:45:32,892 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : POST /login, payload=username=vera&password=vera]
+2022-03-08 17:45:32,901 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [GET /]
+2022-03-08 17:45:33,528 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : GET /]
+2022-03-08 17:51:03,998 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 17432 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 17:51:04,006 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 17:51:05,058 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:51:05,419 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 1.747 seconds (JVM running for 2.462)
+2022-03-08 17:51:13,564 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /]
+2022-03-08 17:51:13,605 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-1] Client not authenticated redirected to log in
+2022-03-08 17:51:13,622 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /]
+2022-03-08 17:51:13,630 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /login]
+2022-03-08 17:51:14,043 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /login]
+2022-03-08 17:51:15,527 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [GET /register?]
+2022-03-08 17:51:15,564 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : GET /register?]
+2022-03-08 17:51:33,664 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] Before request [POST /register]
+2022-03-08 17:51:34,117 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-4] REQUEST DATA : POST /register, payload=name=vera&surname=vera&pnr=123456&username=vera&email=vera%40vyh&password=vera]
+2022-03-08 17:55:22,170 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 33832 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 17:55:22,191 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 17:55:26,268 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:55:27,825 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 7.329 seconds (JVM running for 14.047)
+2022-03-08 17:59:56,334 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 23032 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 17:59:56,342 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 17:59:58,365 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 17:59:58,875 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 3.283 seconds (JVM running for 4.728)
+2022-03-08 18:00:03,082 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /register?]
+2022-03-08 18:00:03,554 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /register?]
+2022-03-08 18:00:03,629 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [GET /js/passwordValidation.js]
+2022-03-08 18:00:03,643 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : GET /js/passwordValidation.js]
+2022-03-08 18:00:44,915 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] Before request [POST /register]
+2022-03-08 18:00:45,413 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-3] Message: Username already existsEx: org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"errors":[{"fieldName":"username","fieldValue":"vera","errors":["username already exists"]}]}"
+2022-03-08 18:00:45,419 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-3] REQUEST DATA : POST /register, payload=name=vera&surname=vera&pnr=12345678&username=vera&email=vera%40gr&password=vera]
+2022-03-08 18:02:03,414 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApplicantwebappApplication using Java 17 on DESKTOP-ESTEL with PID 22872 (C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front\target\classes started by estel in C:\Users\estel\Documents\GitLab\recruitment-application-applicant-front)
+2022-03-08 18:02:03,418 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-08 18:02:05,278 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2022-03-08 18:02:05,796 INFO org.springframework.boot.StartupInfoLogger [main] Started ApplicantwebappApplication in 2.935 seconds (JVM running for 4.617)
+2022-03-08 18:02:06,058 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] Before request [GET /register]
+2022-03-08 18:02:06,381 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-1] REQUEST DATA : GET /register]
+2022-03-08 18:02:22,931 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] Before request [POST /register]
+2022-03-08 18:02:23,357 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-2] Message: User with verausername already existsEx: org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"errors":[{"fieldName":"username","fieldValue":"vera","errors":["username already exists"]}]}"
+2022-03-08 18:02:23,364 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-2] REQUEST DATA : POST /register, payload=name=vera&surname=vera&pnr=1234567&username=vera&email=vera%40gr&password=vera]
+2022-03-08 18:04:36,682 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] Before request [POST /register]
+2022-03-08 18:04:36,702 ERROR com.iv1201.applicantwebapp.applicantwebapp.controller.GlobalControllerExceptionHandler [http-nio-8000-exec-5] Ex: org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8080/api/users/applicant/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-08 18:04:36,707 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-5] REQUEST DATA : POST /register, payload=name=vera&surname=vera&pnr=1234567&username=vera&email=vera%40gr&password=vera]
+2022-03-08 18:04:36,717 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] Before request [GET /error?message=Connection+to+server+is+lost]
+2022-03-08 18:04:36,750 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-6] REQUEST DATA : GET /error?message=Connection+to+server+is+lost]
+2022-03-08 18:04:41,729 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] Before request [GET /]
+2022-03-08 18:04:41,737 INFO com.iv1201.applicantwebapp.applicantwebapp.controller.IndexController [http-nio-8000-exec-7] Client not authenticated redirected to log in
+2022-03-08 18:04:41,743 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-7] REQUEST DATA : GET /]
+2022-03-08 18:04:41,750 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] Before request [GET /login]
+2022-03-08 18:04:41,760 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8000-exec-8] REQUEST DATA : GET /login]

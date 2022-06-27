@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"/>
+    <title>Register page</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/button.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/input.css}"/>
+</head>
+<body>
+<h1 class="login-title">Register page</h1>
+<form th:action="@{/register}" method="post" th:object="${req}" name="registration" id="formWithPassword">
+    <div id="personal-info" class="register-form">
+        <div>
+            <label for="firstname">First Name</label><br>
+            <input id="firstname" name="firstname" type="text" class="form-control" th:field="*{name}"
+                   required="required">
+        </div>
+        <div>
+            <label for="lastname">Last Name</label><br>
+            <input id="lastname" name="lastname" type="text" class="form-control" th:field="*{surname}"
+                   required="required">
+        </div>
+        <div>
+            <label for="ssn">Social Security Number</label><br>
+            <input id="ssn" name="ssn" type="number" class="form-control" th:field="*{pnr}" required="required">
+        </div>
+        <div class="btn-next-wrapper">
+            <button class="btn btn-next" id="next"> next</button>
+        </div>
+        <div class="message" th:text="${message}"></div>
+    </div>
+    <div id="account-info" class="register-form">
+        <div>
+            <label for="name">Username</label><br>
+            <input id="name" type="text" class="form-control" th:field="*{username}" required="required">
+        </div>
+        <div>
+            <label for="email">E-mail</label><br>
+            <input id="email" type="email" class="form-control" th:field="*{email}" required="required">
+        </div>
+        <div>
+            <label for="password">Password</label><br>
+            <input id="password" type="password" class="form-control" th:field="*{password}" required="required">
+        </div>
+        <div>
+            <label for="passwordVerify">Verify Password</label><br>
+            <input id="passwordVerify" type="password" class="form-control" required="required">
+        </div>
+        <div id="passwordMatch" class="password-message message"></div>
+        <input class="btn btn-primary btn-large" type="submit" value="Register"/>
+    </div>
+</form>
+
+<script type="text/javascript" th:src="@{/js/userInfoValidation.js}" ></script>
+<script type="text/javascript" th:src="@{/js/passwordValidation.js}" ></script>
+</body>
+</html>

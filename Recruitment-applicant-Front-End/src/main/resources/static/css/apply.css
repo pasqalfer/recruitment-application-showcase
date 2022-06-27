@@ -1,0 +1,118 @@
+.table-responsive{
+    overflow-x: scroll;
+}
+
+
+/* TABLE */
+.container-center-element{
+    padding: 1rem;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.h5-sub-title{
+    padding: 0.6rem;
+}
+
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33% 66%;
+    grid-gap: 0.5%;
+}
+.grid-head {
+    font-weight: bold;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+.grid-element {
+    text-align: center;
+    padding: 0.5rem 0.2rem;
+}
+
+/* STRAIGHT LINE */
+.container-center-element-small{
+    padding: 1.5rem;
+}
+.straight-line {
+    text-align:center;
+    border-top: 0.1rem solid #cbccc8;
+}
+
+
+.apply-element-container {
+    display: grid;
+    grid-template-areas:  "comp from to";
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 0.5%;
+    padding: 1rem;
+    text-align: center;
+
+}
+.item1{
+    grid-area: comp;
+    margin-top: 1rem;
+}
+.item2 {
+    grid-area: from;
+    margin-top: -1rem;
+}
+.item3 {
+    grid-area: to;
+    margin-top: -1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .apply-element-container {
+        grid-template-areas: "comp from "
+                                    "comp to";
+        grid-template-rows: auto auto;
+        grid-template-columns: 33% 66%;
+    }
+    .item1 {
+
+    }
+    .item2 {
+        margin-top: -1rem;
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+    .item3 {
+        margin-top: -1rem;
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+    .label-input {
+        margin: 0.5rem 0.2rem;
+    }
+    .label-input-out {
+        margin: 0.5rem 0.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .grid-container {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 99%;
+        grid-template-rows: auto auto;
+        grid-gap: 0.5%;
+    }
+    .apply-element-container {
+        grid-template-areas: "comp"
+                                    "from"
+                                     "to";
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 99%;
+    }
+    .item2 {
+        grid-template-columns: 30% 70%;
+    }
+    .item3 {
+        grid-template-columns: 30% 70%;
+    }
+    .item1 {
+        margin-top: -1rem;
+    }
+}

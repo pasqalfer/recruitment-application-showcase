@@ -1,0 +1,74 @@
+/*  dark blue (button border): #2929a3
+  bark blue used in button: #3333ff
+  darker yellow used in button: #e6e6e6
+  Main background color blue : #6666ff
+  Main background color yellow: #cbccc8
+  almost white text: #f3f3f2
+
+  header color dark blue: #2929a3
+  header color light red-ish: #d6b8b8
+
+  form grey border color : #cbccc8
+
+*/
+
+
+.header-bar{
+    display: inline-grid;
+    grid-template-columns: 30% 70%;
+    height: 4rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(25deg, rgba(2,0,36,1) 0%, rgba(41,41,163,1) 50%, rgba(214,184,184,1) 100%);
+}
+
+.header-text {
+    text-align: left;
+    padding-left: 8%;
+    color: #f3f3f2;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    letter-spacing:1px;
+    padding-top: 0.5rem;
+}
+
+.header-form {
+    text-align: right;
+    padding-right: 5%;
+}
+
+.app-state__change {
+    cursor: pointer;
+}
+
+.app-state__change:hover {
+    cursor: pointer;
+}
+
+#optionAccepted{
+    display: none;
+}
+
+#optionRejected{
+    display: none;
+}
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width: 800px) {
+    .header-bar {
+        grid-template-columns: 50% 50%;
+    }
+}
+@media screen and (max-width: 400px) {
+
+}
+
+
+
+

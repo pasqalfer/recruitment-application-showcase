@@ -1,0 +1,39 @@
+/* MEDIA QUERYS */
+
+.table-responsive{
+    overflow: visible;
+}
+
+.update-comp{
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 770px) {
+    .table-responsive{
+        overflow-x: scroll;
+    }
+    .btn-comp{
+        width: auto;
+    }
+    .even-out-tablerow{
+        display: none;
+    }
+}
+@media screen and (max-width: 575px) {
+    .comp-select{
+        margin-top: 39%;
+    }
+
+    .addCompBtn{
+        margin-top: 230%;
+    }
+
+    .even-out-tablerow{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 990px) {
+
+}
